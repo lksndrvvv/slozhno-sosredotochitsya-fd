@@ -220,17 +220,9 @@
 
 .content-section__list {
   list-style: none;
-  padding: 0;
-  margin: 0;
-
   display: grid;
   gap: var(--card-gap);
 }
-
-.content-section__item {
-  margin: 0;
-}
-
 
 
 

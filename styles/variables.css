@@ -16,6 +16,8 @@
   --title-decor-text-color: #000028;
 
   --font-family-main: 'IBM Plex Mono', monospace;
+  --body-text-size: 18px;
+  --body-text-line: 1.3;
 
   --page-padding: 10px;
     
@@ -23,9 +25,12 @@
   --header-padding-bottom: 66px;
 
   --content-inline-offset: 10px;
-  --content-block-gap: 60px;
+  --content-block-gap: 40px;
   --section-block-gap: 50px;
- 
+  --card-gap: 20px;
+  --section-gap: 20px;
+  --gallery-gap: 10px;
+  
   --corner-size: 25px;
 
   --button-color: var(--accent-color);
@@ -37,5 +42,6 @@
     --page-padding: 20px;
     --section-block-gap: 80px;
     --content-inline-offset: 20px;
+    --gallery-gap: 20px;
   }
 }

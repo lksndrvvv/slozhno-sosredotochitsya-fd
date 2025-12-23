@@ -49,7 +49,10 @@
     --button-hover-color: rgb(50 49 45 / 40%);
   }
   /* В светлой теме REC не будет видно */
-  :root .header__rec-design {
+  /* :root .header__rec-design {
+    display: none;
+  } */
+  :root:not(.theme-dark) .header__rec-design {
     display: none;
   }
 }

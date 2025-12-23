@@ -9,8 +9,23 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-color: #000028;
+  --bg-image: url('../images/cover-image-dark.png');
+
+  --text-color: #f1b2ce;
+  --main-title-color: #db00ff;
+  --accent-color: #ff0070;
+
+  --decor-color: var(--accent-color);
+  --title-decor-bg: var(--accent-color);
+  --title-decor-text-color: #000028;
+
+  --button-color: var(--accent-color);
+  --button-hover-color: rgb(255 0 112 / 40%);
 }
 
+/* В тёмной теме REC должен быть виден */
 :root.theme-dark .header__rec-design {
   display: flex;
+
 }

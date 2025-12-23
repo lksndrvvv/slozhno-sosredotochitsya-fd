@@ -12,8 +12,44 @@
 
   --bg-color: #fff1f7;
   --bg-image: url('../images/cover-image-light.png');
+
+  --text-color: #353430;
+  --main-title-color: #ffc2e6;
+  --accent-color: #ff8dcb;
+
+  --decor-color: var(--text-color);
+  --title-decor-bg: var(--accent-color);
+  --title-decor-text-color: #353430;
+
+  --button-color: #353430;
+  --button-hover-color: rgb(50 49 45 / 40%);
 }
 
+/* В светлой теме REC не будет видно */
 :root.theme-light .header__rec-design {
   display: none;
+}
+
+
+/* Авто-тема */
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fff1f7;
+    --bg-image: url('../images/cover-image-light.png');
+
+    --text-color: #353430;
+    --main-title-color: #ffc2e6;
+    --accent-color: #ff8dcb;
+
+    --decor-color: var(--text-color);
+    --title-decor-bg: var(--accent-color);
+    --title-decor-text-color: #353430;
+
+    --button-color: #353430;
+    --button-hover-color: rgb(50 49 45 / 40%);
+  }
+  /* В светлой теме REC не будет видно */
+  :root .header__rec-design {
+    display: none;
+  }
 }
